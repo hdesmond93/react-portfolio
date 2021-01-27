@@ -130,7 +130,6 @@ nav ul li {
 /***** HEADER MAIN OFFER BUTTON *****/
 .btn-main-offer {
   border: 2px solid var(--primary-green);
-  /* background-color: var(--primary-green); */
   text-transform: uppercase;
   border-radius: 0.5rem;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
@@ -145,5 +144,83 @@ nav ul li {
 }
 
 .btn-main-offer:hover {
+  color: var(--primary-green);
   background-color: rgba(139,195,74,.1);
+}
+
+/***** ABOUT ME *****/
+.about-container {
+  position: relative;
+  height: 20vh;
+}
+
+.about-info {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+/***** SERVICES *****/
+
+.service-container {
+  position: relative;
+  background-color: #ddd;
+  height: 20vh;
+}
+
+.service-info {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+/***** PORTFOLIO *****/
+.portfolio-container {
+  position: relative;
+  height: 20vh;
+}
+
+.portfolio-info {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+/***** CONTACT ME *****/
+
+.contact-container {
+  position: relative;
+  background-color: #ddd;
+  height: 20vh;
+
+}
+
+.contact-info {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
 }
