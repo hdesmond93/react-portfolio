@@ -25,7 +25,7 @@ nav {
 }
 /***** NAV LINKS *****/
 
-nav a.nav-link {
+.nav-item {
   font-size: .8rem;
   letter-spacing: 0.0375px;
   cursor: pointer;
@@ -36,9 +36,9 @@ nav ul li {
   text-transform: uppercase;
 }
 
-.navbar-nav > li > a {
-  margin-right: 0.4rem;
-  margin-left: 0.4rem;
+.navbar-nav > li {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
   color: var(--primary-white) !important;
   border-top: 0.1875rem solid var(--primary-dark);
 }
@@ -136,6 +136,7 @@ nav ul li {
   color: var(--primary-green);
   margin-top: 2rem;
   z-index: 2;
+  cursor: pointer;
 }
 
 .btn-main-offer:link {

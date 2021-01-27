@@ -43,11 +43,23 @@ function App() {
         }}
       />
       <Navbar />
-      <Header />
+      <Header
+        title="Home"
+        id="home" 
+      />
       <About />
-      <Services />
-      <Portfolio />
-      <Contact />
+      <Services 
+        title="Services"
+        id="services"
+      />
+      <Portfolio
+        title="Portfolio"
+        id="portfolio" 
+      />
+      <Contact
+        title="Contact Me"
+        id="contact"  
+      />
     </>
   );
 }
