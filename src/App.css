@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap');
+
+:root {
+  --primary-white: #fff;
+  --primary-blue: #00bcd4;
+  --primary-green: #8bc34a;
+  --primary-dark: rgba(255,255,255,0);
+}
+
+body {
+  font-family: 'Exo 2',  sans-serif !important;
+}
+
+/***** NAVBAR *****/
+.logo {
+  width: 10rem;
+  margin-top: 1rem;
+}
+/***** NAV LINKS *****/
+
+nav a.nav-link {
+  font-size: .8rem;
+  letter-spacing: 0.0375px;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.4rem;
+  margin-left: 0.4rem;
+  color: var(--primary-white) !important;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+  border-top: 0.1875rem solid var(--primary-blue);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-blue);
+}
+
+.navbar-toggler {
+    border-color: #fff !important;
+}
