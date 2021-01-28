@@ -25,7 +25,7 @@ nav {
 }
 /***** NAV LINKS *****/
 
-nav a.nav-link {
+.nav-item {
   font-size: .8rem;
   letter-spacing: 0.0375px;
   cursor: pointer;
@@ -36,9 +36,9 @@ nav ul li {
   text-transform: uppercase;
 }
 
-.navbar-nav > li > a {
-  margin-right: 0.4rem;
-  margin-left: 0.4rem;
+.navbar-nav > li {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
   color: var(--primary-white) !important;
   border-top: 0.1875rem solid var(--primary-dark);
 }
@@ -130,13 +130,13 @@ nav ul li {
 /***** HEADER MAIN OFFER BUTTON *****/
 .btn-main-offer {
   border: 2px solid var(--primary-green);
-  /* background-color: var(--primary-green); */
   text-transform: uppercase;
   border-radius: 0.5rem;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-green);
   margin-top: 2rem;
   z-index: 2;
+  cursor: pointer;
 }
 
 .btn-main-offer:link {
@@ -145,5 +145,127 @@ nav ul li {
 }
 
 .btn-main-offer:hover {
+  color: var(--primary-green);
   background-color: rgba(139,195,74,.1);
+}
+
+/***** ABOUT ME *****/
+.about-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image {
+  padding: 1rem;
+  flex-direction: row;
+  z-index: 1;
+}
+
+.me-image {
+  max-height: 13rem;
+  border-radius: 50%;
+}
+
+.about-info {
+  padding: 1rem;
+  flex-direction: row;
+  z-index: 1;
+  max-width: 50%;
+}
+
+.about-info h2 {
+  font-family: 'Exo 2',  sans-serif !important;
+  text-align: center;
+}
+
+.about-info p {
+  font-size: .8rem;
+}
+
+/***** SERVICES *****/
+
+.service-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd;
+}
+
+.service-info {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 1;
+}
+
+.caption {
+  padding: 1rem 2rem;
+  justify-content: center;
+}
+
+.service {
+  flex-direction: row;
+  background-color: rgba(139,195,74,.3);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 2rem;
+}
+
+.icon {
+  margin-top: 40px;
+}
+
+.service h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 45px;
+}
+
+@media(max-width: 768px) {
+  .service-info {
+    flex-direction: column;
+  }
+}
+
+/***** PORTFOLIO *****/
+.portfolio-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-info {
+  flex-direction: row;
+  z-index: 1;
+}
+
+.portfolio-info h2 {
+  font-family: 'Exo 2',  sans-serif !important;
+  text-align: center;
+}
+/***** CONTACT ME *****/
+
+.contact-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd;
+
+}
+
+.contact-info {
+  flex-direction: row;
+  z-index: 1;
 }
